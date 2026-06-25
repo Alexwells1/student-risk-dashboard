@@ -40,9 +40,9 @@ env/
 .streamlit/secrets.toml
 
 # Data files (if large)
-*.csv
 *.pkl
 !models/model_RF.pkl    # <-- ADD THIS - Allow the model file
+!datasurvey_engineered.csv
 *.h5
 *.pb
 *.sav
