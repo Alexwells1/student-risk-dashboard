@@ -1,0 +1,90 @@
+# ============================================================
+# THEME CONFIGURATION
+# ============================================================
+
+[theme]
+# Base theme: "light" or "dark"
+base = "light"
+
+# Primary color for buttons, links, etc.
+primaryColor = "#1f77b4"
+
+# Background color for the main content area
+backgroundColor = "#ffffff"
+
+# Background color for sidebar and other secondary elements
+secondaryBackgroundColor = "#f0f2f6"
+
+# Text color
+textColor = "#262730"
+
+# Font family
+font = "sans serif"
+
+# ============================================================
+# SERVER CONFIGURATION
+# ============================================================
+
+[server]
+# Port to run the app on (default: 8501)
+port = 8501
+
+# Maximum file upload size in megabytes (default: 200MB)
+maxUploadSize = 200
+
+# Enable Cross-Site Request Forgery protection
+enableXsrfProtection = true
+
+# Enable CORS (Cross-Origin Resource Sharing)
+# Set to false for production to prevent unauthorized access
+enableCORS = false
+
+# Enable websocket compression
+enableWebsocketCompression = true
+
+# ============================================================
+# BROWSER CONFIGURATION
+# ============================================================
+
+[browser]
+# Gather usage statistics (set to false for privacy)
+gatherUsageStats = false
+
+# Default page to show when app opens
+# serverAddress = "localhost"
+
+# ============================================================
+# LOGGING CONFIGURATION
+# ============================================================
+
+[logger]
+# Log level: "error", "warning", "info", "debug"
+level = "info"
+
+# Log format
+# format = "%(asctime)s %(levelname)s %(message)s"
+
+# ============================================================
+# CLIENT CONFIGURATION
+# ============================================================
+
+[client]
+# Show error details in the browser
+showErrorDetails = true
+
+# Toolbar mode: "auto", "enabled", "disabled"
+toolbarMode = "auto"
+
+# ============================================================
+# DEPLOYMENT SPECIFIC (for Streamlit Cloud)
+# ============================================================
+
+# These are automatically set on Streamlit Cloud
+# but you can override them
+
+# [global]
+# # Maximum number of seconds to wait for a response
+# maxCachingAge = 86400  # 24 hours
+
+# # Cache size limit in MB
+# cacheSizeLimit = 1024  # 1 GB
